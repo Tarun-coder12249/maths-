@@ -1,0 +1,25 @@
+void main(){
+  int a=2;
+  int b=3;
+  
+  var c = a+b;
+  print("Addition of a and b is $c");
+  
+  var d=a-b;
+  print("SUbtraction of a and b is $d");
+  
+  var e = -d;
+  print("Urnari minus of a and b is $e");
+  
+  var f=a*b;
+  print("Multiplication of a and b is $f");
+  
+  var g = a/b;
+  print("Division of a and b is $g");
+  
+  var h = b%a;
+  print("Remainder of a and b is $h");
+
+  var i = b~/a;
+  print("Quotient of the a and b is $i");
+}
