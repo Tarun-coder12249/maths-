@@ -1,0 +1,22 @@
+void main(){
+  var marks= 78;
+  if(marks>85){
+    print("Excelent");
+  }
+  else if(marks>75){
+    print("Very Good");
+    
+  }
+  else if(marks > 65){
+    print("Good");
+  }
+  else if(marks>50){
+    print("Average");
+  }
+  else if(marks>35){
+    print("Just Pass");
+  }
+  else{
+    print("Fail");
+  }
+}
