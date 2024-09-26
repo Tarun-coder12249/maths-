@@ -1,0 +1,20 @@
+class Student {
+  var stdName;
+  var stdAge;
+  var stdRoll_no;
+
+  showstdinfo() {
+    print("student Name is : ${stdName}");
+    print("student Age is : ${stdAge}");
+    print("student Roll_no is : ${stdRoll_no}");
+  }
+}
+void main(){
+
+  var std = new Student();
+  std.stdName = "Tarun";
+  std.stdAge = 18;
+  std.stdRoll_no = 44;
+ 
+  std.showstdinfo();
+}
